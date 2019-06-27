@@ -1,7 +1,7 @@
 let UserModel = require('../models/user.model');
 let express = require('express');
 let router = express.Router();
-let bcrypt = require("bcrypt");
+// let bcrypt = require("bcrypt");
 let mongoose = require("mongoose");
 let jwt = require("jsonwebtoken");
 

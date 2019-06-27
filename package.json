@@ -4,17 +4,17 @@
   "description": "backend component",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "start-watch": "nodemon src/index.js",
+    "start": "node index.js",
+    "start-watch": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Victor R",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.6",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.5.5",
-    "nodemon": "^1.19.0"
+    "nodemon": "^1.19.0",
+    "body-parser": "latest"
   }
 }
